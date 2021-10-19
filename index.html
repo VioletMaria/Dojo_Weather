@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav id="navbar">
+        <h2 id="sitename">DojoWeather</h2>
+        <div>
+            <ul>
+                <li>Burbank</li>
+                <li>Chicago</li>
+                <li>Dallas</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="area">
+        <h2 id="city">San Jose</h2>
+        <div class="temp">
+            <p>show temperature in</p>
+            <select name="measure" id="temperature">
+                <option value=""><span>&#176;</span>C</option>
+                <option value=""><span>&#176;</span>F</option>
+            </select>
+        </div>
+    </div>
+    <div class="days">
+        <div class="daycontains">
+            <h3>Today</h3>
+            <img src="./assets/some_rain.png" alt="cloud with rain">
+            <p>some rain</p>
+            <div class="high-low">
+                <h3 id="high">24<span>&#176;</span></h3>
+                <h3 id="low">18<span>&#176;</span></h3>
+            </div>
+        </div>
+        <div class="daycontains">
+            <h3>Tomorrow</h3>
+            <img src="./assets/some_sun.png" alt="sun">
+            <p>some sun</p>
+            <div class="high-low">
+                <h3 id="high">27<span>&#176;</span></h3>
+                <h3 id="low">19<span>&#176;</span></h3>
+            </div>
+        </div>
+        <div class="daycontains">
+            <h3>Friday</h3>
+            <img src="./assets/some_clouds.png" alt="cloud">
+            <p>some clouds</p>
+            <div class="high-low">
+                <h3 id="high">21<span>&#176;</span></h3>
+                <h3 id="low">16<span>&#176;</span></h3>
+            </div>
+        </div>
+        <div class="daycontains">
+            <h3>Today</h3>
+            <img src="./assets/some_sun.png" alt="sun">
+            <p>some sun</p>
+            <div class="high-low">
+                <h3 id="high">26<span>&#176;</span></h3>
+                <h3 id="low">21<span>&#176;</span></h3>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
