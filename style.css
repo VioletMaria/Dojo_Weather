@@ -28,6 +28,10 @@ body {
     list-style: none;
 }
 
+#navbar li:hover {
+    cursor: pointer
+}
+
 #navbar ul {
     font-size: 20px;
     display: flex;
@@ -116,4 +120,39 @@ body {
 
 #low {
     color: royalblue;
+}
+
+#alert {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(221, 221, 221);
+    border: 3px solid black;
+    width: 1200px;
+    height: 150px;
+    visibility: visible;
+    position: fixed;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+#alert button {
+    margin-right: 20px;
+    width: 100px;
+    padding: 6px;
+    background-color: cornflowerblue;
+    border-color: black;
+    box-shadow: 2px 2px black;
+}
+
+#alert button:hover {
+    cursor: pointer;
+}
+
+.cookieinfo {
+    width: 580px;
+    font-size: 20px;
 }
